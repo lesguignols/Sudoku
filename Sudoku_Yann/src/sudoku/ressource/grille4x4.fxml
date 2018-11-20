@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" stylesheets="@../css/dark-theme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.controller.controllerGrille4x4">
+	<children>
+		<Pane prefHeight="600.0" prefWidth="600.0">
+			<children>
+				<Separator layoutX="300.0" layoutY="200.0" orientation="VERTICAL" prefHeight="200.0" />
+				<Separator layoutX="150.0" layoutY="200.0" orientation="VERTICAL" prefHeight="200.0" />
+				<Separator layoutX="450.0" layoutY="200.0" orientation="VERTICAL" prefHeight="200.0" />
+				<Separator layoutX="150.0" layoutY="200.0" prefWidth="300.0" />
+				<Separator layoutX="150.0" layoutY="300.0" prefWidth="300.0" />
+				<Separator layoutX="150.0" layoutY="400.0" prefWidth="300.0" />
+				
+				<TextField fx:id="case0" editable="false" layoutX="179.0" layoutY="212.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case1" editable="false" layoutX="241.0" layoutY="212.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case2" editable="false" layoutX="329.0" layoutY="212.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case3" editable="false" layoutX="391.0" layoutY="212.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case4" editable="false" layoutX="179.0" layoutY="257.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case5" editable="false" layoutX="241.0" layoutY="257.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case6" editable="false" layoutX="329.0" layoutY="257.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case7" editable="false" layoutX="391.0" layoutY="257.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case8" editable="false" layoutX="179.0" layoutY="312.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case9" editable="false" layoutX="241.0" layoutY="312.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case10" editable="false" layoutX="329.0" layoutY="312.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case11" editable="false" layoutX="391.0" layoutY="312.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case12" editable="false" layoutX="179.0" layoutY="357.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case13" editable="false" layoutX="241.0" layoutY="357.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case14" editable="false" layoutX="329.0" layoutY="357.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextField fx:id="case15" editable="false" layoutX="391.0" layoutY="357.0" prefHeight="31.0" prefWidth="31.0" />
+				<TextArea fx:id="listePossible" editable="false" layoutX="100.0" layoutY="425.0" prefHeight="83.0" prefWidth="400.0" text="Liste des valeurs possibles:" />
+				<Text layoutX="308.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="points" />
+				<TextField fx:id="score" alignment="CENTER_RIGHT" editable="false" layoutX="228.0" layoutY="52.0" prefHeight="31.0" prefWidth="75.0" text="0" AnchorPane.topAnchor="52.0" />
+            <ToolBar layoutX="168.0" layoutY="541.0" prefHeight="40.0" prefWidth="265.0">
+              <items>
+      				<Button fx:id="retour" mnemonicParsing="false" onAction="#clickOnQuitter" text="Quitter" />
+      				<Button fx:id="init" mnemonicParsing="false" onAction="#clickOnInit" text="Init" />
+                  <Button fx:id="verifier" disable="true" mnemonicParsing="false" onAction="#clickOnVerifier" text="Verifier" />
+              </items>
+            </ToolBar>
+			</children>
+		</Pane>
+	</children>
+</AnchorPane>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.controller.controllerGrille9x9">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="600.0">
+         <children>
+         	<Separator layoutX="385.875" layoutY="55.0" orientation="VERTICAL" prefHeight="478.5" />
+            <Separator layoutX="208.125" layoutY="55.0" orientation="VERTICAL" prefHeight="478.5" />
+         
+            <TextField fx:id="case0" layoutX="66.75" layoutY="79.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case1" layoutX="106.75" layoutY="79.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case2" layoutX="146.75" layoutY="79.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case3" layoutX="244.5" layoutY="79.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case4" layoutX="285.0" layoutY="79.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case5" layoutX="324.5" layoutY="79.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case6" layoutX="422.25" layoutY="79.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+         	<TextField fx:id="case7" layoutX="462.25" layoutY="79.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case8" layoutX="502.25" layoutY="79.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+      		
+      		<TextField fx:id="case9" layoutX="66.75" layoutY="119.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case10" layoutX="106.75" layoutY="119.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case11" layoutX="146.75" layoutY="119.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case12" layoutX="244.5" layoutY="119.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case13" layoutX="285.0" layoutY="119.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case14" layoutX="324.5" layoutY="119.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case15" layoutX="422.25" layoutY="119.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+         	<TextField fx:id="case16" layoutX="462.25" layoutY="119.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case17" layoutX="502.25" layoutY="119.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+           
+            <TextField fx:id="case18" layoutX="66.75" layoutY="159.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case19" layoutX="106.75" layoutY="159.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case20" layoutX="146.75" layoutY="159.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case21" layoutX="244.5" layoutY="159.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case22" layoutX="285.0" layoutY="159.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case23" layoutX="324.5" layoutY="159.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case24" layoutX="422.25" layoutY="159.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+         	<TextField fx:id="case25" layoutX="462.25" layoutY="159.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case26" layoutX="502.25" layoutY="159.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+			
+			
+			<TextField fx:id="case27" layoutX="66.75" layoutY="238.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case28" layoutX="106.75" layoutY="238.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case29" layoutX="146.75" layoutY="238.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case30" layoutX="244.5" layoutY="238.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case31" layoutX="285.0" layoutY="238.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case32" layoutX="324.5" layoutY="238.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case33" layoutX="422.25" layoutY="238.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+         	<TextField fx:id="case34" layoutX="462.25" layoutY="238.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case35" layoutX="502.25" layoutY="238.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+      		
+      		<TextField fx:id="case36" layoutX="66.75" layoutY="278.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case37" layoutX="106.75" layoutY="278.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case38" layoutX="146.75" layoutY="278.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case39" layoutX="244.5" layoutY="278.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case40" layoutX="285.0" layoutY="278.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case41" layoutX="324.5" layoutY="278.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case42" layoutX="422.25" layoutY="278.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+         	<TextField fx:id="case43" layoutX="462.25" layoutY="278.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case44" layoutX="502.25" layoutY="278.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            
+            <TextField fx:id="case45" layoutX="66.75" layoutY="318.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case46" layoutX="106.75" layoutY="318.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case47" layoutX="146.75" layoutY="318.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case48" layoutX="244.5" layoutY="318.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case49" layoutX="285.0" layoutY="318.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case50" layoutX="324.5" layoutY="318.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case51" layoutX="422.25" layoutY="318.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+         	<TextField fx:id="case52" layoutX="462.25" layoutY="318.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case53" layoutX="502.25" layoutY="318.75" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+		
+			
+			<TextField fx:id="case54" layoutX="66.75" layoutY="398.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case55" layoutX="106.75" layoutY="398.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case56" layoutX="146.75" layoutY="398.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case57" layoutX="244.5" layoutY="398.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case58" layoutX="285.0" layoutY="398.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case59" layoutX="324.5" layoutY="398.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case60" layoutX="422.25" layoutY="398.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+         	<TextField fx:id="case61" layoutX="462.25" layoutY="398.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case62" layoutX="502.25" layoutY="398.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+      		
+      		<TextField fx:id="case63" layoutX="66.75" layoutY="438.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case64" layoutX="106.75" layoutY="438.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case65" layoutX="146.75" layoutY="438.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case66" layoutX="244.5" layoutY="438.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case67" layoutX="285.0" layoutY="438.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case68" layoutX="324.5" layoutY="438.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case69" layoutX="422.25" layoutY="438.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+         	<TextField fx:id="case70" layoutX="462.25" layoutY="438.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case71" layoutX="502.25" layoutY="438.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            
+            <TextField fx:id="case72" layoutX="66.75" layoutY="478.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case73" layoutX="106.75" layoutY="478.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case74" layoutX="146.75" layoutY="478.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case75" layoutX="244.5" layoutY="478.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case76" layoutX="285.0" layoutY="478.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case77" layoutX="324.5" layoutY="478.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case78" layoutX="422.25" layoutY="478.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+         	<TextField fx:id="case79" layoutX="462.25" layoutY="478.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+            <TextField fx:id="case80" layoutX="502.25" layoutY="478.25" maxHeight="31.0" maxWidth="31.0" minHeight="31.0" minWidth="31.0" prefHeight="31.0" prefWidth="31.0" />
+			<TextField fx:id="score" alignment="CENTER_RIGHT" editable="false" layoutX="228.0" layoutY="15.0" prefHeight="31.0" prefWidth="75.0" text="0" AnchorPane.topAnchor="52.0" />
+            <ToolBar layoutX="107.0" layoutY="549.0" prefHeight="40.0" prefWidth="387.0">
+              <items>
+      				<Button fx:id="retour" mnemonicParsing="false" onAction="#clickOnQuitter" text="Quitter" />
+      				<Button fx:id="init" mnemonicParsing="false" onAction="#clickOnInit" text="Init" />
+                  <Button fx:id="aide" mnemonicParsing="false" onAction="#clickOnaide" text="Liste des possibles/Aide" />
+                  <Button fx:id="verifier" mnemonicParsing="false" onAction="#clickOnVerifier" text="Verifier" />
+              </items>
+            </ToolBar>
+            <Text layoutX="304.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="points" />
+            <Separator layoutX="30.375" layoutY="55.0" prefWidth="539.25" />
+            <Separator layoutX="30.375" layoutY="214.5" prefWidth="539.25" />
+            <Separator layoutX="30.375" layoutY="374" prefWidth="539.25" />
+      	</children>
+      </Pane>
+      <Separator layoutX="30.375" layoutY="55.0" orientation="VERTICAL" prefHeight="478.5" />
+      <Separator layoutX="569.625" layoutY="55.0" orientation="VERTICAL" prefHeight="478.5" />
+      <Separator layoutX="30.375" layoutY="533.5" prefWidth="539.25" />
+   </children>
+</AnchorPane>

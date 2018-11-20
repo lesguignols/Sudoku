@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="400.0" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.controller.controllerAide">
+   <children>
+      <Text fill="RED" layoutX="167.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Explication" underline="true">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <Text fx:id="texteListe" layoutX="14.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste des valeurs possibles d'une grille" underline="true" />
+      <TextArea fx:id="liste" editable="false" layoutX="15.0" layoutY="68.0" prefHeight="50.0" prefWidth="470.0" />
+      <TextArea editable="false" layoutX="15.0" layoutY="146.0" prefHeight="200.0" prefWidth="470.0" text="Pour jouer, vous devez d'abord cliquer sur le bouton &quot;init&quot;.&#10;Une fois cela fait, vous pouvez saisir dans chaque case une valeur &#10;qui ce trouve dans la &quot;Liste des valeurs possibles dans la grille&quot;.&#10;&#10;Pour saisir une valeur, vous devez cliquer sur une case et saisir la &#10;valeur que vous souhaitez. Vous pouvez en saisir plusieurs à la fois&#10;et les vérifier en cliquant sur le bouton &quot;Vérifier&quot;.&#10;&#10;Pour q'une grille soit valide, il faut que dans chaque ligne, dans &#10;chaque colonne et chaque &quot;sous grille&quot; une seule fois la même &#10;valeur." />
+      <Text layoutX="14.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comment jouer?" underline="true" wrappingWidth="110.13427734375" />
+      <Button fx:id="fermer" layoutX="218.0" layoutY="357.0" mnemonicParsing="false" onAction="#clickOnFermer" text="Fermer" />
+   </children>
+</AnchorPane>

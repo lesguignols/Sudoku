@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="600.0" prefWidth="600.0" styleClass="backgrounf" stylesheets="@../css/dark-theme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.controller.MenuSudokuController">
+	<bottom>
+		<ToolBar maxWidth="225.0" prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+			<items>
+				<Button fx:id="retour" mnemonicParsing="false" onAction="#clickOnRetour" prefWidth="101.0" text="Retour" />
+				<Button fx:id="commencer" disable="true" mnemonicParsing="false" onAction="#clickOnCommencer" prefWidth="101.0" text="Commencer" />
+			</items>
+			<BorderPane.margin>
+				<Insets bottom="31.0" left="187.0" right="187.0" />
+			</BorderPane.margin>
+		</ToolBar>
+	</bottom>
+	<top>
+		<AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+			<children>
+				<ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ideeVisuel/sudoku_nombre.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="150.0" fitWidth="200.0" layoutX="425.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../ideeVisuel/sudoku_lettre.png" />
+					</image>
+				</ImageView>
+				<CheckBox fx:id="chiffre" layoutX="37.0" layoutY="165.0" mnemonicParsing="false" onAction="#choixChiffre" text="Sudoku Chiffre" />
+				<CheckBox fx:id="lettre" layoutX="440.0" layoutY="165.0" mnemonicParsing="false" onAction="#choixLettre" text="Sudoku Lettre" />
+			</children>
+		</AnchorPane>
+	</top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <children>
+				<ImageView fx:id="qxqN" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" visible="false">
+					<image>
+						<Image url="@../ideeVisuel/4x4_chiffre.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="nxnN" fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" visible="false">
+					<image>
+						<Image url="@../ideeVisuel/sudoku_nombre.png" />
+					</image>
+				</ImageView>
+				<ImageView fx:id="sxsN" fitHeight="150.0" fitWidth="200.0" layoutX="436.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" visible="false">
+					<image>
+						<Image url="@../ideeVisuel/sudoku_nombre.png" />
+					</image>
+				</ImageView>
+				<CheckBox fx:id="qxq" layoutX="43.0" layoutY="221.0" mnemonicParsing="false" onAction="#choixQxQ" text="4x4" visible="false" />
+				<CheckBox fx:id="nxn" layoutX="254.0" layoutY="221.0" mnemonicParsing="false" onAction="#choixNxN" text="9x9" visible="false" />
+				<CheckBox fx:id="sxs" layoutX="465.0" layoutY="221.0" mnemonicParsing="false" onAction="#choixSxS" text="16x16" visible="false" />
+            <ImageView fx:id="qxqL" fitHeight="150.0" fitWidth="150.0" layoutX="14.0" layoutY="60.0" pickOnBounds="true" visible="false">
+               <image>
+                  <Image url="@../ideeVisuel/4x4_lettre.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="nxnL" fitHeight="150.0" fitWidth="150.0" layoutX="225.0" layoutY="60.0" pickOnBounds="true" visible="false">
+               <image>
+                  <Image url="@../ideeVisuel/sudoku_lettre.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="sxsL" fitHeight="150.0" fitWidth="150.0" layoutX="436.0" layoutY="60.0" pickOnBounds="true" visible="false">
+               <image>
+                  <Image url="@../ideeVisuel/16x16_lettre.png" />
+               </image>
+            </ImageView>
+			</children>
+			</AnchorPane>
+   </center>
+</BorderPane>
