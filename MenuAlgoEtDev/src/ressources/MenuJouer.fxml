@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuJouerController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../LogoMotus.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="536.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../LogoPendu.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../LogoMotsMeles.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="561.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../LogoSudoku.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="motus" layoutX="53.0" layoutY="247.0" mnemonicParsing="false" onAction="#clickOnMotus" text="MOTUS" />
+      <CheckBox fx:id="pendu" layoutX="600.0" layoutY="247.0" mnemonicParsing="false" onAction="#clickOnPendu" text="PENDU" />
+      <CheckBox fx:id="motsMeles" layoutX="48.0" layoutY="502.0" mnemonicParsing="false" onAction="#clickOnMotsMeles" text="MOTS MELES" />
+      <CheckBox fx:id="sudokuLettres" layoutX="547.0" layoutY="502.0" mnemonicParsing="false" onAction="#clickOnSudokuLettres" text="LETTRES" />
+      <Button fx:id="retour" layoutX="325.0" layoutY="399.0" mnemonicParsing="false" onAction="#clickOnRetour" prefHeight="20.0" prefWidth="100.0" text="RETOUR" />
+      <Button fx:id="quitter" layoutX="325.0" layoutY="461.0" mnemonicParsing="false" onAction="#clickOnExit" prefHeight="20.0" prefWidth="100.0" text="QUITTER" />
+      <Button fx:id="jouer" disable="true" layoutX="325.0" layoutY="252.0" mnemonicParsing="false" onAction="#clickOnJouer" prefHeight="20.0" prefWidth="100.0" text="JOUER" />
+      <Button fx:id="classement" disable="true" layoutX="325.0" layoutY="311.0" mnemonicParsing="false" onAction="#clickOnClassement" prefHeight="20.0" prefWidth="100.0" text="CLASSEMENT" />
+      <CheckBox fx:id="sudokuChiffres" layoutX="660.0" layoutY="502.0" mnemonicParsing="false" onAction="#clickOnSudokuChiffres" text="CHIFFRES" />
+      <Text layoutX="612.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUDOKU" />
+      <Label fx:id="text" alignment="CENTER" layoutY="14.0" prefHeight="58.0" prefWidth="750.0" text="Label">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

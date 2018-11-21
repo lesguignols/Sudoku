@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ConnexionController">
+   <children>
+      <TextField fx:id="id" layoutX="301.0" layoutY="173.0" promptText="Entre ton identifiant" />
+      <PasswordField fx:id="password" layoutX="301.0" layoutY="223.0" promptText="Entre ton mot de passe" />
+      <Button fx:id="connecter" layoutX="201.0" layoutY="287.0" mnemonicParsing="false" onAction="#clickOnSeConnecter" prefHeight="20.0" prefWidth="100.0" text="SE CONNECTER" />
+      <Button fx:id="inscrire" layoutX="450.0" layoutY="287.0" mnemonicParsing="false" onAction="#clickOnSInscrire" prefHeight="20.0" prefWidth="100.0" text="S'INSCRIRE" />
+      <Button fx:id="quitter" layoutX="326.0" layoutY="431.0" mnemonicParsing="false" onAction="#clickOnExit" prefHeight="20.0" prefWidth="100.0" text="QUITTER" />
+      <Text layoutX="4.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Connecte toi !" textAlignment="CENTER" wrappingWidth="743.3046875">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Text layoutX="362.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OU">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="messageErreur" fill="RED" layoutX="275.0" layoutY="271.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Identifiant ou mot de passe incorrect !" />
+      <Label fx:id="nbUtilisateurs" layoutX="14.0" layoutY="528.0" text="Label" />
+   </children>
+</AnchorPane>
